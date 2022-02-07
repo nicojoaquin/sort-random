@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  background-color: green;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btn-new {
+  margin-bottom: 2rem;
+}
+
+.btn-new button {
+  background-color: rgb(49, 49, 235);
+  color: white;
+  border: rgb(49, 49, 235);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-new button:hover {
+  background-color: rgb(57, 57, 241);
+}
+
+.card {
+  width: 350px;
+  height: 500px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  font-size: 6rem;
+  padding: 1.5rem;
+  border-radius: 5px;
+}
+
+.card-num {
+  text-align: center;
+}
+
+.card-draw {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.diamonds span,
+.hearts span {
+  color: red;
+}
+
+.clubs span,
+.spades span {
+  color: black;
+}
